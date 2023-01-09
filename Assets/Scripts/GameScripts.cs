@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameScripts : MonoBehaviour
 {
     // Inspecterで値を変更する
-    public float spring = 40000;
-    public float openAngle = 60; // 開く角度
-    public float closeAngle = 0; // 閉じる角度
+    private float spring = 40000;
+    private float openAngle = 25; // 開く角度
+    private float closeAngle = 0; // 閉じる角度
 
     // Hinge Joint
     private HingeJoint hjL; // AxisL
@@ -35,29 +35,27 @@ public class GameScripts : MonoBehaviour
     void Update()
     {
         // 左クリックを押す
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             jL.spring = spring;
             jL.targetPosition = -openAngle;
             hjL.spring = jL;
 
         }
-        // 左クリックを離す
-        if (Input.GetMouseButtonUp(0))
+        if(Input.GetKeyUp(KeyCode.LeftArrow))  // 左クリックを離す
         {
             jL.spring = spring;
             jL.targetPosition = closeAngle;
             hjL.spring = jL;
         }
         // 右クリックを押す
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             jR.spring = spring;
             jR.targetPosition = openAngle;
             hjR.spring = jR;
         }
-        // 右クリックを離す
-        if (Input.GetMouseButtonUp(1))
+         if(Input.GetKeyUp(KeyCode.RightArrow))// 右クリックを離す
         {
             jR.spring = spring;
             jR.targetPosition = closeAngle;

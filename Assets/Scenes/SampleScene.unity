@@ -279,7 +279,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: -25, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.55546564, y: 3.95533, z: -0.00000007371195}
+  m_ConnectedAnchor: {x: -0.5554656, y: 3.95533, z: -0.00000007371195}
   m_UseSpring: 1
   m_Spring:
     spring: 40000
@@ -331,9 +331,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f33fda102e32e54e88c1ce5f7d03f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spring: 20000
-  openAngle: 60
-  closeAngle: 0
 --- !u!1 &464539347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,9 +1075,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f33fda102e32e54e88c1ce5f7d03f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spring: 20000
-  openAngle: 60
-  closeAngle: 0
 --- !u!1 &1719242292
 GameObject:
   m_ObjectHideFlags: 0
