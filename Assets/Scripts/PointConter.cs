@@ -18,8 +18,7 @@ public class PointConter : MonoBehaviour
 
      private void OnCollisionEnter(Collision collision)
      {
-         string yourTag = collision.gameObject.tag;
-         if (yourTag == "Player")
+         if (transform.gameObject.tag == "Player")
          {
              score += 10;
          }
