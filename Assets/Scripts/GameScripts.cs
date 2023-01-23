@@ -6,7 +6,7 @@ public class GameScripts : MonoBehaviour
 {
     // Inspecterで値を変更する
     private float spring = 40000;
-    private float openAngle = 15; // 開く角度
+    private float openAngle = 20; // 開く角度
     private float closeAngle = 0; // 閉じる角度
 
     // Hinge Joint
