@@ -22,11 +22,14 @@ public class PointConter : MonoBehaviour
          {
              score += 10;
          }
+         /*
          else
          {
              score += 5;
          }
+         */
          SetScore();
+         
      }
 
      void SetScore()
