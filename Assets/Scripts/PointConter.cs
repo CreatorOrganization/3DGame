@@ -21,7 +21,6 @@ public class PointConter : MonoBehaviour
          if (transform.gameObject.tag == "Player" && collision.gameObject.CompareTag("Finish"))
          {
              score += 10;
-             Debug.Log("Helo Word!!");
          }
          SetScore();
          
