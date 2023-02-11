@@ -23,7 +23,11 @@ public class PointConter : MonoBehaviour
              score += 10;
          }
          SetScore();
-         
+         if(transform.gameObject.tag == "EditorOnly")
+         {
+            score +=30;
+         }
+         SetScore();
      }
      void SetScore()
      {
