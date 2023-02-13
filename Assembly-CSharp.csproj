@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameStartScripts.cs" />
+     <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\WindowTitleScripts.cs" />
      <Compile Include="Assets\Scripts\PointConter.cs" />
      <Compile Include="Assets\Scripts\GameScripts.cs" />
-     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
