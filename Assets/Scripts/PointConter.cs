@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class PointConter : MonoBehaviour
 {
-
     public Text ScoreText;
     private int score = 0;
     private GameObject gameObj;
@@ -29,7 +28,12 @@ public class PointConter : MonoBehaviour
          {
             score +=30;
          }
-         SetScore();          
+         SetScore();
+         if (transform.gameObject.tag == "Respawn")
+         {
+             score += 5;
+         }
+         SetScore();
     }
      void SetScore()
      {
