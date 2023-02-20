@@ -34,7 +34,12 @@ public class PointConter : MonoBehaviour
              score += 5;
          }
          SetScore();
-    }
+         if (transform.gameObject.tag == "point")
+         {
+             score += 3;
+         }
+         SetScore();
+     }
      void SetScore()
      {
          ScoreText.text = string.Format("現在の点数:{0}", score);
