@@ -19,11 +19,11 @@ public class GameStartScripts : MonoBehaviour
     public void ButtonPushGameStart()
     {
        SceneManager.LoadScene("SampleScene");
-       Debug.Log("HeloWorld!!");
+       //Debug.Log("HeloWorld!!");
     }
     public void ButtonPushAplecationQuit()
     {
       Application.Quit();
-      Debug.Log("HeloWorld!!");
+      Debug.Log("ゲームを終了するボタンが押されました");
     }
 }
