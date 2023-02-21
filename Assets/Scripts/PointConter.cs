@@ -34,7 +34,7 @@ public class PointConter : MonoBehaviour
              score += 5;
          }
          SetScore();
-         if (transform.gameObject.tag == "point")
+         if (collision.gameObject.tag == "point")
          {
              score += 3;
          }
