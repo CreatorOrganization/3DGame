@@ -42,6 +42,6 @@ public class PointConter : MonoBehaviour
      }
      void SetScore()
      {
-         ScoreText.text = string.Format("現在の点数:{0}", score);
+         ScoreText.text = string.Format("EnableScore:{0}", score);
      }
 }
