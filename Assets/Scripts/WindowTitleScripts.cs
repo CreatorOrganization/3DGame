@@ -30,5 +30,10 @@ public class WindowTitleScripts : MonoBehaviour
     {
         SceneManager.LoadScene("Scenes/SampleScene");
     }
-    
+
+    public void Taitle()
+    {
+        SceneManager.LoadScene("WindowTitle");
+    }
+
 }
