@@ -25,4 +25,10 @@ public class WindowTitleScripts : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void WindowBAck()
+    {
+        SceneManager.LoadScene("Scenes/SampleScene");
+    }
+    
 }

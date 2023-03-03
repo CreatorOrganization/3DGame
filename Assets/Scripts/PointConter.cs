@@ -26,7 +26,7 @@ public class PointConter : MonoBehaviour
 
          if(transform.gameObject.tag == "EditorOnly")
          {
-            score +=30;
+            score += 30;
          }
          SetScore();
          if (transform.gameObject.tag == "Respawn")
@@ -39,7 +39,12 @@ public class PointConter : MonoBehaviour
              score += 3;
          }
          SetScore();
+         if (score >=20)
+         {
+             SceneManager.LoadScene("GOALWindow");
+         }
      }
+     
      void SetScore()
      {
          ScoreText.text = string.Format("EnableScore:{0}", score);

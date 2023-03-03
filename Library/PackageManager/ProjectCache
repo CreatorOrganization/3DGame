@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638133153094050728
+      ticks: 638134008576099264
     m_Hash: 3872555011
   m_LockFileStatus:
     m_FilePath: C:/Users/DeveloperUchida/Downloads/3DGame/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638133153094060741
+      ticks: 638134008576099264
     m_Hash: 1655219910
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
